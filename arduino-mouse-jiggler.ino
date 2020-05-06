@@ -8,7 +8,7 @@
 
 int distance = 200;           // number of pixels the mouse travels
 int strokeDelay = 500;        // delay of the mouse (in ms) after each stroke
-int jiggleInterval = 60000;    // interval between the jiggle (set of strokes) in ms
+unsigned long jiggleInterval = 60000;    // interval between the jiggle (set of strokes) in ms
 
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
