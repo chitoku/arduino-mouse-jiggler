@@ -7,7 +7,7 @@
 #include "Mouse.h"
 
 int distance = 200;           // number of pixels the mouse travels
-int strokeDelay = 500;        // delay of the mouse (in ms) after each stroke
+unsigned long strokeDelay = 500;        // delay of the mouse (in ms) after each stroke
 unsigned long jiggleInterval = 60000;    // interval between the jiggle (set of strokes) in ms
 
 void setup() {
