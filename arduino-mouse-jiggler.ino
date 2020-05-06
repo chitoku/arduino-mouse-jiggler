@@ -19,11 +19,11 @@ void loop() {
 
   Mouse.move(distance, 0, 0);
   delay(strokeDelay);
-  Mouse.move(distance, 0, 0);
+  Mouse.move(0, distance, 0);
   delay(strokeDelay);
-  Mouse.move(distance, 0, 0);
+  Mouse.move(-distance, 0, 0);
   delay(strokeDelay);
-  Mouse.move(distance, 0, 0);
+  Mouse.move(0, -distance, 0);
   delay(strokeDelay);
 
   // Mouse jiggle happens every {jiggleInterval}/1000 second
